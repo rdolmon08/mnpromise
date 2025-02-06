@@ -36,11 +36,30 @@
                 <form>
                     <h2>Sign Up</h2>
                     <p>Enter an email address and choose a password to create a new account.</p>
-                    <label for="email">Email:</label><br><br>
+                    <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"><br><br>
-                    <label for="pwd">Password:</label><br><br>
-                <input type="password" id="pwd" name="pwd"><br><br>
-                    <input type="submit" value="Submit">
+                    <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"><br>
+                <p><ul>
+                    <li>Must contain at least one lowercase letter
+                        <li>Must contain at least one uppercase letter</li>
+                        <li> Must contain one number</li>
+                        <li>  Must be between 8 and 32 characters</li>
+                        <li>Must not be an email address</li>
+                </ul></p>
+                <input type="checkbox" id="warning" name="warning" value="warning"> 
+                <label for="warning"><b>Tennessen Warning Notice:</b> We are requesting data from you to determine if you are eligible for a grant under the Providing Resources and Opportunity and Maximizing Investments in Striving Entrepreneurs (“PROMISE”) Act through the Minnesota Department of Employment and Economic Development (“DEED”) and its partners. You are not required to provide the requested information, but failure to do so will may result in the denial of your application for this grant program. The data that you provide will be shared with DEED’s partner organizations who are authorized to provide grants to businesses under the PROMISE Act grant program. The data may also be shared with other government entities or individuals who have a legal right to this data including, but not limited to, the Office of the Legislative Auditor, the State Auditor, or as otherwise required or permitted by state or federal law or court order.</label><br>
+                <p><b>Data Privacy Acknowledgement:</b> Upon completion of the evaluation process, data in your response will be public with the exception of trade secret data as defined and classified in Minn. Stat. § 13.37. For more information about data classification relating to grants, please refer to Minn. Stat. § 13.599.
+
+                    By completing and submitting this application you affirm the following: 
+                    
+                    <ol>
+
+                   <li>I have read and understood the information provided above and I agree to supply DEED and their partners with the information requested.</li>  
+                    <li>I understand that the information may be used as described above in accordance with Minnesota Government Data Practices Act.</li> 
+                    <li>I affirm that, as an officer or authorized agent of the business, I have authority to submit this application on behalf of the business, and the information submitted is correct and accurate to the best of my knowledge.</li> 
+                </ol></p>
+                <input type="submit" value="Submit">
                   </form> 
                 </div>
         </div>
