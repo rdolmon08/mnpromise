@@ -1,3 +1,12 @@
+div {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.return {
+  background-color: grey;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
