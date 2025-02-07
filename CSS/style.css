@@ -3,8 +3,12 @@ div {
   padding-left: 50px;
 }
 
-.return {
-  background-color: grey;
+.warning {
+  font-size: 10px 
+}
+
+.privacy {
+  font-size: 10px 
 }
 
 /* For mobile phones: */
